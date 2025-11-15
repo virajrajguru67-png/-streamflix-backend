@@ -39,6 +39,9 @@ yarn-error.log*
 # Vercel
 .vercel
 
+# Git rewrite artifacts
+.git-rewrite/
+
 # Prisma
 *.db
 *.db-journal
