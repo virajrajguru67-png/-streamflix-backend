@@ -24,6 +24,10 @@ Thumbs.db
 # dist/ - We need this for api/index.ts, so don't ignore
 # But we can ignore source maps in production if needed
 
+# Ignore any compiled files in api/ directory (Vercel will compile from .ts)
+api/*.js
+api/*.js.map
+
 # Test files
 test/
 __tests__/
