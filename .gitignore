@@ -11,6 +11,10 @@ package-lock.json
 dist/
 *.js.map
 
+# Compiled API files (Vercel builds these from .ts)
+api/*.js
+api/*.js.map
+
 # TypeScript
 *.tsbuildinfo
 
