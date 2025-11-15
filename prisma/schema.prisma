@@ -321,7 +321,7 @@ model PlatformSettings {
   theatreName        String   @default("")
   supportEmail       String   @default("")
   contactNumber      String   @default("")
-  address            String   @default("") @db.Text
+  address            String?  @db.Text
   termsUrl           String   @default("")
   privacyUrl         String   @default("")
   refundWindowHours  Int      @default(0)

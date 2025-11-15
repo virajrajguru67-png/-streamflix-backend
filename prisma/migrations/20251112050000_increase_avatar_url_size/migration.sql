@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `User` MODIFY COLUMN `avatarUrl` TEXT;
+

@@ -1,0 +1,2 @@
+-- This index will be created in the next migration after otp column is added
+-- Index creation moved to 20251113145339_change_token_to_otp migration
